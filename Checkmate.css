@@ -1,0 +1,284 @@
+*{
+	margin:0;
+	padding:0;
+}
+#header{
+	text-align: center;
+	margin-top: 25px;
+}
+#header ul{
+	margin-left: 20px;
+	list-style: none;
+	
+}
+#header ul li {
+	float:left;
+	width: 150px;
+	height: 20px;
+	display: inline-block;	
+	padding-right:10px;
+}
+#header ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	letter-spacing: 0.5px;
+	line-height: 2px;
+	
+}
+#icon {
+	text-align: center;
+	
+}
+#icon ul{
+	list-style: none;
+	margin-right: 20px;
+	margin-top: -10px;
+	
+}
+#icon ul li a{
+	margin-top: 5px;
+	float:right;
+	width: 50px;
+	height: 20px;
+	font-size: 15px;
+	background: white;
+	color: black;
+	margin-right: 5px;
+}
+
+#brand {
+	text-align: center;
+	display: inline-block;
+}
+ .name{
+	
+	margin-top: 10px;
+	width: 1600px;
+	height: 40px;
+	margin-left: -20px;
+}
+#brand .name h1{
+	float: left;
+	margin-left: 40px;
+	font-size: 35px;
+}
+#brand ul{
+	list-style: none;
+	width: 1400px;
+	hieght: 40px;
+	margin-left: -580px;
+}
+#brand ul li{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	padding-right: 10px;
+	margin-top: 8px;
+	margin-right: 40px;
+	margin-left: -10px;
+	position: relative;
+}
+#brand ul li a{
+	display: block;
+	background: white;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	transition-duration: .6s;
+}
+#brand ul li a:hover{
+	text-decoration: underline;
+	transition-duration: .6s;
+	border-bottom: 1px black;
+}
+form input[type="text"] {
+	float: right;
+	width: 291px;
+	box-sizing: border-box;
+	border: 1px #E8E8E8 ;
+	border-radius: 4px;
+	outline: none;
+	padding: 12 14px;
+	height: 40px;
+	margin-right: 80px;
+	margin-top: -50px;
+	background:#E8E8E8;
+	transition: 1s ease-in-out;
+}
+form button[type="submit"]{
+	float:right;
+	margin-top: -38px;
+	font-size: 17px;
+	margin-right: 90px;
+	border: none;
+	background: #E8E8E8;
+	cursor: pointer;
+	color: black;
+}
+form button[type="submit"]:hover{
+	background:#E8E8E8;
+}
+form input[type="text"]:focus {
+	width: 500px;
+}
+.img1{
+	margin-top: 10px;
+	margin-left:20px;
+	width: 1500px;
+	height: 471px;
+	background-image: url( pic/louis-vuitton--PUSH1_LVTWISTUS_DIE.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	
+}
+#body{	
+	text-align: center;
+	margin-top: -50px;
+}
+.title{
+	margin-top: 20px;
+	font-size: 35px;
+	letter-spacing: 3px;
+	padding: 10px;
+}
+.button{
+	font-size: 15px;
+	display: block;
+	margin-top: 0px;
+	
+}
+.left-button{
+	width: 300px;
+	height: 70px;
+	float:left;
+	line-height: 70px;
+	background: black;
+	color: white;
+	margin-left: 450px;
+	border-bottom: 1px solid black;
+}
+.right-button{
+	width: 300px;
+	height: 70px;
+	float: right;
+	background: white;
+	color: black;
+	line-height: 70px;
+	margin-right: 460px;
+	border: .5px solid black;
+	
+}
+.left-button:hover{
+	color:black;
+	background: grey; 
+	transition-duration: .6s;
+}
+.right-button:hover{
+	color:white;
+	background: grey;
+	transition-duration: .6s;
+	border: none;
+}
+#footer{
+	text-align: center;
+	display: inline;
+}
+.content{
+	float:left;
+	margin-top: 120px;
+	width: 743px;
+	height: 950px;
+	text-align: center;
+	border-right: 1px solid  #CECECE;
+	border-top : 1px  solid  #CECECE;
+	border-bottom: 1px  solid  #CECECE;
+}
+.img2{
+	margin-top: 50px;
+	margin-left:50px;
+	float: center;
+	background-image: url(pic/91625851_630206134196568_819408515159293952_n.png);
+	width: 600px;
+	height: 800px;
+	background-size: cover;
+}
+.content h1{
+	margin-left: 50px;
+	margin-top: 0px;
+	width: 600px;
+	height: 100px;
+	line-height: 100px;
+}
+.contents2{
+	float:right;
+	
+}
+.top-box{
+	
+	text-align: center;
+	margin-top:120px;
+	width: 775px;
+	height: 474.5px;
+	border-bottom: 1px solid #CECECE;
+	border-top: 1px solid #CECECE;
+	line-height: 50px;
+}
+.top-box h1{
+	margin-top: 150px;
+	font-size: 40px;
+}
+.top-box p{
+	font-size: 20px;
+}
+.box{
+	margin-top: 20px;
+	margin-left: 260px;
+	width: 250px;
+	height: 80px;
+	background: black;
+	color:white;
+	line-height: 15px;
+	text-align: center;
+	display: block;
+}
+.box a{
+	padding-top: 15px;
+	line-height: 25px;
+	width:250px;
+	height: 80px;
+	text-decoration: none;
+	float:center;
+	display: block;
+	color: white;
+	transition-duration: .6s;
+}
+.top-box .box a:hover{
+	background: white;
+	color: black;
+}
+.bot-box{
+	margin-top:37px;
+	width: 775px;
+	height: 474.5px;
+	
+	
+}
+.img3{
+	
+	margin-left: 100px;
+	width: 600px;
+	background-image: url(pic/91992985_2735398813414288_5609400959873581056_n.png);
+	height: 300px;
+	background-size: cover;
+	
+}
+.bot-box h1{
+	border-bottom: 1px solid #CECECE;
+	padding: 50px;
+}
+.contents2 .bot-box{
+	margin-right: -100px;
+
+	border-bottom: 1px solid #CECECE;
+}
